@@ -15,8 +15,12 @@ int main()
         }
 
         else if (action == "joke") {
-            cout << "Y'know what you'd call the Flintstones if they were black?\n";
-            cout << "You'd call em niggers!\n";
+            cout << "Why did the chicken cross the road?\n";
+            int question;
+            cout << "";
+            cin >> question;
+            cout << "To get to the other side!\n";
+            cout << "(I know I'm super creative with my jokes)\n";
         }
 
         else if (action == "quit" or action == "exit") {
@@ -28,5 +32,6 @@ int main()
         }
 
     }
+
 
 }
